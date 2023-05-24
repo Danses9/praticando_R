@@ -1,0 +1,25 @@
+---
+title: "Sintaxe"
+author: "Danna Silva E Santo"
+date: "2023-05-24"
+---
+# SINTAXE 
+# Para produzir texto em R, use aspas simples ou duplas
+
+```{r}
+"Olá mundo!"
+```
+
+# Para números de saída, digite o número sem aspas
+
+```{r}
+5
+10
+19
+```
+
+# Para realizar cálculos simples, some os números
+
+```{r}
+10 + 15
+```
