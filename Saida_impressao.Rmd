@@ -1,0 +1,19 @@
+---
+title: "Saída de impressão"
+author: "Danna Silva E Santo"
+date: "2023-05-24"
+---
+
+# SAÍDA DE IMPRESSÃO
+# Temos uma função disponivel caso queira usa-lá para gerar código
+```{r}
+print("Hello World!")
+```
+
+# Caso o código esteja dentro de uma expressão {dentro de chaves} use 
+# print para gerar o resultado
+```{r}
+for (x in 1:12) {
+  print(x)
+}
+```
