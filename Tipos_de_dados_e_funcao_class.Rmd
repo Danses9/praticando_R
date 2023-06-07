@@ -1,0 +1,34 @@
+---
+title: "Tipos de dados"
+author: "Danna Silva E Santo"
+date: "2023-06-07"
+---
+# As variáveis podem armazenar valores de diferentes tipos e não precisam ser declaradas com nenhum tipo especifico e podem até mudar de tipo DEPOIS de serem definidas
+
+
+# TIPOS DE DADOS:
+# 1) NUMERIC: 10.5, 55, 780 - São números com ou sem decimais.
+# 2) INTERGER: 1L, 350L, 8L, onde "L" declara o número inteiro - Sem casas decimais, utilizando apenas o L.
+# 3) COMPLEX: 9+i, 845i, onde "i" é imaginário.
+# 4) CHARACTER: String, "R é legal", "Falso", "Números nulos", "15,789".
+# 5) LOGICAL: Booleano, verdadeiro ou falso.
+
+
+# A função class() exibe o tipo de dado de uma variável
+```{r}
+a <- "R é muito legal"  # character
+class(a)
+
+b <- 100.5              # Numeric
+class(b)
+
+c <- 155i               # Complex
+class(c)
+
+d <- 8L                 # Integer 
+class(d)
+
+e <- FALSE              # Logical
+class(e)
+```
+
