@@ -1,0 +1,37 @@
+---
+title: "Como nomear variáveis e multiplas variáveis"
+author: "Danna Silva E Santo"
+date: "2023-06-07"
+---
+# Regras: 
+# 1) Não pode começar com números ou sublinhados
+# 2) Não pode utilizar palavras reservadas(NULL,for,TRUE, etc)
+# 3) Os nomes se diferenciam através das letras maiúsculas e minusculas
+
+```{r}
+minhaVar <- "Dan"
+MinhaVar <- "Guilherme"
+varM     <- "Gohan"
+VarM     <- "Livro"
+k2b      <- "Esperança"
+.minhaVar<- "Chulé"
+
+minhaVar
+MinhaVar 
+varM     
+VarM     
+k2b     
+.minhaVar
+
+```
+
+# O R permite atribuir o mesmo valor a várias variáveis
+```{r}
+var1 <- var2 <- var3 <- var4 <- "Laranjona"
+
+var1
+var2
+var3
+var4
+```
+# OBS: Os nomes das variáveis diferenciam maiúsculas de minúsculas!
