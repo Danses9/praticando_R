@@ -1,0 +1,64 @@
+---
+title: "Convertendo tipos de dados"
+author: "Danna Silva E Santo"
+date: "2023-06-07"
+output: html_document
+---
+# NÚMEROS
+# Existem três tipos de números em R:
+# ♥ NUMERIC: contém qualquer número com ou sem decimal, como: 10,5, 55, 787.
+```{r}
+x <- 10.5
+y <- 55
+
+x
+y
+
+class(x)
+class(y)
+```
+
+# ♥ INTEGER: Números inteiros são dados numéricos sem casas decimais. Usado quando você tem certeza de que nunca criará uma variável que deva conter decimais. Para criar uma integer variável, você deve usar a letra Lapós o valor inteiro
+```{r}
+x <- 1060L
+y <- 5L
+
+x
+y
+
+class(x)
+class(y)
+```
+
+# ♥ COMPLEX: Um complexnúmero é escrito com um " i" como parte imaginária
+```{r}
+x <- 38+2i
+y <- 515i
+
+x
+y
+
+class(x)
+class(y)
+```
+
+# Convertendo os tipos de números:
+# ♦ as.numeric()
+# ♦ as.integer()
+# ♦ as.complex()
+```{r}
+x <- 5L # Integer
+y <- 2  # Numeric
+z <- 8i # Complex
+
+
+a <- as.integer(y)
+b <- as.numeric(x)
+c <- as.complex(x)
+
+class(a)
+class(b)
+class(c)
+```
+
+
