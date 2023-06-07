@@ -1,0 +1,26 @@
+---
+title: "Matemática simples"
+author: "Danna Silva E Santo"
+date: "2023-06-07"
+---
+# Operadores para realizar operações matemáticas comuns com números.
+
+# OPERADORES:
+# 1) +   - Multiplicação
+# 2) -   - Subtração
+# 3) *   - Multiplicação
+# 4) /   - Divisão
+# 5) ^   - Exponenciação
+# 6) %%  - Resto da divisão
+# 7) %/% - Divisão inteira
+
+```{r}
+10 + 25
+50 - 25
+5 * 5
+24 / 4
+50 ^ 50
+2 %% 25
+82 %/% 82 
+```
+
