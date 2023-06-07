@@ -1,0 +1,20 @@
+---
+title: "Concatenando elementos"
+author: "Danna Silva E Santo"
+date: "2023-06-07"
+---
+# Utiliza-se a função paste() e para combinar os textos utiliza-se a virgula
+```{r}
+msg <- "legal"
+paste("R é", msg)
+```
+
+# A virgula também pode adicionar uma variável a outra variável
+```{r}
+texto1 <- "Misericórdia,"
+texto2 <- "Senhor da glória"
+
+paste(texto1, texto2)
+```
+
+# O caractere + só funciona como operador matemático, e não pode combinar textos(string), pois precisa ser o mesmo operador. 
