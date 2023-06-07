@@ -1,0 +1,31 @@
+---
+title: "Atribuição de variaveis"
+author: "Danna Silva E Santo"
+date: "2023-06-07"
+---
+# As variáveis são recipientes para armazenar os valores, não existindo uma declaração, ela apenas é criada quando se atribui um valor para ela
+
+```{r}
+nome <- "Danna"
+ano  <- 1996
+
+nome 
+ano
+
+animal <- "Gohanzinho"
+sexo   <- "macho"
+estado <- "são paulo"
+
+animal
+sexo
+estado
+```
+
+# Cabe a você decidir se vai utilizar o print(). Caso o código esteja entre uma expressão use o print() para exibir o resultado. 
+
+```{r}
+for (x in 1:10) {
+  print(x)
+}
+```
+
