@@ -1,0 +1,40 @@
+---
+title: "Cordas R"
+author: "Danna Silva E Santo"
+date: "2023-06-08"
+output: html_document
+---
+# As strings são usadas para armezamento de textos, sendo cercadas por aspas duplas ("") ou simples('')
+
+# Para a atribuição de um valor sempre se utiliza a seta <- operador e a string que deseja inserir
+```{r}
+str <- "Olá, Danna!"
+
+str
+
+str <- "Que feriado incrível, cheio de conhecimentos em R"
+str
+```
+
+# String multilinhas
+# Pode-se atribuir uma string multilinha a uma variável
+```{r}
+str <- "Ilustríssimo pé direito da Alice,
+        Tapete Felpudo,
+        perto da Lareira,
+        (com amor, Alice)."
+
+str
+```
+
+# Nesse caso sempre haverá um \n que significa quebra de linha. 
+# E para incluir uma quebra de linhas na mesma posição do código, utilize a função cat()
+```{r}
+str <- "Ilustríssimo pé direito da Alice,
+        Tapete Felpudo,
+        perto da Lareira,
+        (com amor, Alice)."
+
+cat(str)
+```
+
