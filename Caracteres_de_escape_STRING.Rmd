@@ -1,0 +1,34 @@
+---
+title: "Caracteres de escape - String"
+author: "Danna Silva E Santo"
+date: "2023-06-08"
+output: html_document
+---
+# Para inserir caracteres "ilegais" em uma String, devemos utilizar um caractere de escape.
+# Ela é uma barra invertida "\", seguida por um texto que deseja incluir. 
+# Caractere ilegal é uma aspa dupla dentro de uma String entre aspas duplas.
+```{r}
+str <- "Eu sou uma "Viking" muito formosa!"
+str
+```
+
+# Para corrigir uma parte do texto use "\"
+```{r}
+str <- "Eu sou uma \"Viking\" muito formosa!"
+str
+```
+
+# A impressão automática da variável imprimirá a barra invertida, neste caso precisa usar a # função cat() para imprimir sem a barra invertida
+```{r}
+str <- "Eu sou uma \"Viking\" muito formosa!"
+str
+
+cat(str)
+```
+
+# DEMAIS CARACTERES DE ESCAPE
+# \\ - Barra invertida
+# \n - Nova linha
+# \r - Retorno do carro (Move o cursor para o inicio da linha)
+# \t - Tab (Guia horizontal)
+# \b - Backspace (Move o cursor para a esquerda)
