@@ -1,0 +1,84 @@
+---
+title: "Operadores_R"
+author: "Danna Silva E Santo"
+date: "2023-06-08"
+output: html_document
+---
+# Eles podem ser usados para realizar operações em variáveis e valores:
+#
+# • Operadores Aritiméticos
+# • Operadores de Atribuição
+# • Operadores de Comparação
+# • Operadores Lógicos
+# • Operadores diversos
+#
+# OPERADORES ARITIMÉTICOS:
+# +   - SOMA
+# -   - SUBTRAI
+# *   - MULTIPLICA
+# /   - DIVIDE
+# ^   - EXPONENCIAÇÃO
+# %%  - RESTO DA DIVISÃO
+# %/% - DIVISÃO INTEIRA
+```{r}
+5 + 5
+5 - 5
+5 * 5
+5 / 5
+5 ^ 5
+5 %% 5
+5 %/% 5
+```
+
+# OPERADORES DE ATRIBUIÇÃO:
+# <-  
+# <<- 
+```{r}
+gatinho <- 8
+gatinhozinho <<- 18
+
+28 -> gatinhozao
+48 ->> gatinhoinho
+
+gatinho
+gatinhozinho
+gatinhozao
+gatinhoinho
+
+```
+
+# OPERADORES DE COMPARAÇÃO 
+# Tem apenas o intuito de comparar os valores:
+# == IGUAL 
+# != DIFERENTE
+# > MAIOR
+# < MENOR
+# <= MENOR OU IGUAL
+# >= MAIOR OU IGUAL
+```{r}
+8 == 5
+5 != 8
+8 > 5
+8 < 5
+6 <= 5
+6 >= 5
+```
+
+# OPERADORES LÓGICOS
+# Serve para combinar as instruções condicionais:
+# &  - AND ~ Retorna valor verdadeiro se ambas condições forem verdadeiras
+# && - AND 
+# |  - OR  ~ Retorna valor se uma das condições forem verdadeiras 
+# || - OR
+# !  - NOT ~ Retorna valor se a condição for invertida (TRUE vira FALSE e vice versa)
+```{r}
+(40 > 10) & (25 < 5)
+
+(18 - 24) | (2 + 2)
+```
+
+# OPERADORES DIVERSOS
+# Eles são usados para manipular dados:
+# :     - Cria uma série de números SEQUÊNCIAIS, ex 1:8
+# %int% - Descobre se o valor pertence a um VETOR 
+# %*%   - Multiplicação de MATRIZES
