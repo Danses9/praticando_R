@@ -6,7 +6,7 @@ date: "2023-06-07"
 # Operadores para realizar operações matemáticas comuns com números.
 
 # OPERADORES:
-# 1) +   - Multiplicação
+# 1) +   - Soma
 # 2) -   - Subtração
 # 3) *   - Multiplicação
 # 4) /   - Divisão
