@@ -1,0 +1,39 @@
+---
+title: "Funções de Strings"
+author: "Danna Silva E Santo"
+date: "2023-06-08"
+output: html_document
+---
+# COMPRIMENTO DA CORDA
+# Para encontrar o número de caracteres em uma String se utiliza a função nchar()
+```{r}
+str <- "Olá, mundinho cor de rosa!"
+
+nchar(str)
+
+
+str <- "O rato roeu a roupa do rei de Roma em Paris"
+nchar(str)
+```
+
+# VERIFICANDO UMA STRING
+# A função grepl() verifica se um caractere ou uma sequências de caracteres está presente em uma String
+```{r}
+str <- "Olá, Gohanzinho felpuldinho!"
+
+grepl("Olá", str)
+grepl("G", str)
+grepl("Xuxa", str)
+grepl("dinho", str)
+grepl("Z", str)
+```
+
+# COMBINANDO DUAS CORDAS
+# Com a função paste() podemos mesclar/concatenar duas Strings
+```{r}
+str1 <- "Pipinho"
+str2 <- "pinho!"
+
+paste(str1, str2)
+```
+
