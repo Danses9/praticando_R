@@ -1,0 +1,64 @@
+---
+title: "Funções de matemática integradas"
+author: "Danna Silva E Santo"
+date: "2023-06-08"
+output: html_document
+---
+# As funções min() e max() podem ser usadas para encontrar o número mais baixo ou mais alto em um conjunto 
+
+```{r}
+max (5, 10, 15)
+min (5, 10, 15)
+
+max (2, 25, 100)
+min (0, 28, 43)
+```
+
+# QUADRADO ()
+# A função sqrt() retorna a raiz quadrada de um número 
+```{r}
+sqrt(12)
+
+sqrt(28)
+
+sqrt(840)
+
+sqrt(62)
+```
+
+# ABDÔMEN ()
+# Essa função abs() retorna o valor absoluto(POSITIVO) de um número
+```{r}
+abs(-512)
+
+abs(-124.7)
+
+abs(-61.521)
+
+abs(-358.4)
+```
+
+# TETO()
+# Essa função ceiling() arredonda o número para cima, até o inteiro mais próximo
+```{r}
+ceiling(5.2)
+
+ceiling(4.3)
+
+ceiling(2.1)
+
+ceiling(8.7)
+```
+
+# CHÃO()
+# Essa função floor() arredonda o número para baixo, até o inteiro mais próximo.
+```{r}
+floor(5.2)
+
+floor(6.9)
+
+floor(68.4)
+
+floor(25.3)
+```
+
